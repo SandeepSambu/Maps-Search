@@ -1,16 +1,33 @@
-# maps_search
+**Google Maps Location Viewer**
 
-A new Flutter project.
+A Flutter app to view locations on Google Maps with markers and explore details.
 
-## Getting Started
+**Features**
+    Displays locations on Google Maps with markers.
+    List of locations to select and update the map.
+    View details for each location.
+    Responsive design for mobile and WebAssembly platforms.
 
-This project is a starting point for a Flutter application.
+**Installation**
 
-A few resources to get you started if this is your first Flutter project:
+Clone the repository:
+    git clone https://github.com/yourusername/google-maps-location-viewer.git
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Navigate to the project directory:
+    cd google-maps-location-viewer
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Install dependencies:
+
+    flutter pub get
+
+Run the app:
+    flutter run
+
+**How to Use**
+    Select a location from the list.
+    View it on the map with a marker.
+    Tap a marker to see more details (mobile).
+
+**Dependencies**
+    flutter
+    google_maps_flutter
